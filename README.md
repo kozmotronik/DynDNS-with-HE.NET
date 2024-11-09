@@ -7,8 +7,9 @@ tags: "dns, dyndns, script, tutorials, he.net"
 ---
 
 # REQUIREMENTS
-
-  $ apt-get install -y dnstools curl
+```sh
+$ apt-get install -y dnstools curl
+```
 
 # DynDNS with HE.NET  
 ## How to Make your own DynDNS for Free with HE.NET and CURL
@@ -40,16 +41,19 @@ then
 -----
 
 ## 6. Copy the script On the Client site (Home Machine)
+```sh
+$ curl -O https://raw.githubusercontent.com/jodumont/DynDNS-with-HE.NET/master/update_dns-he-net.sh  
+$ chmod 700 update_dns-he-net.sh
+```
 
-  $ curl -O https://raw.githubusercontent.com/jodumont/DynDNS-with-HE.NET/master/update_dns-he-net.sh  
-  $ chmod 700 update_dns-he-net.sh  
-
-### 7. Adjust the $VARIABLE  
-  $ nano update_dns-he-net.sh
+### 7. Adjust the $VARIABLE
+```sh
+$ nano update_dns-he-net.sh
+```
 
 ### 8. CRON it
-
-  $ crontab -e
-  */5 * * * * /_CHOOSE_YOUR_OWN_PATH_/update_dns-he-net.sh >/dev/null 2>&1
-
+```sh
+$ crontab -e
+*/5 * * * * /_CHOOSE_YOUR_OWN_PATH_/update_dns-he-net.sh >/dev/null 2>&1
+```
   
