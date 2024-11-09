@@ -10,6 +10,8 @@ tags: "dns, dyndns, script, tutorials, he.net"
 ```sh
 $ apt-get install -y dnstools curl
 ```
+> [!TIP]
+> Currently, as of 2024-11, the `dnstools` package seems to be changed to `dnsutils` in newer versions of Debian such as Debian Bookworm 12.x.
 
 # DynDNS with HE.NET  
 ## How to Make your own DynDNS for Free with HE.NET and CURL
