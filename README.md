@@ -52,6 +52,7 @@ $ chmod 700 update_dns-he-net.sh
 ```sh
 $ nano update_dns-he-net.sh
 ```
+In the opened file, replace the `_DYNAMIC_DOMAIN_NAME_TO_UPDATE_` text with your domain name that you added in step 3, and the `_PASSWORD_GENERATE_FOR_THIS_DNS_RECORD_` text with your key that you generated in step 5 in **dns.he.net** account.
 
 ### 8. CRON it
 ```sh
