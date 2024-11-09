@@ -44,7 +44,7 @@ then
 
 ## 6. Copy the script On the Client site (Home Machine)
 ```sh
-$ curl -O https://raw.githubusercontent.com/jodumont/DynDNS-with-HE.NET/master/update_dns-he-net.sh  
+$ curl -O https://raw.githubusercontent.com/opi/DynDNS-with-HE.NET/refs/heads/master/update_dns-he-net.sh  
 $ chmod 700 update_dns-he-net.sh
 ```
 
